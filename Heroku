@@ -6,6 +6,8 @@ Create an app on Heroku:
 heroku create
 
 Deploy your code:
+git add .
+git commit -m "Demo"
 git push heroku master
 
 Ensure that at least one instance of the app is running:
