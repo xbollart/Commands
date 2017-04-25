@@ -1,0 +1,29 @@
+Check version:
+node -v
+npm -v
+
+Install express:
+npm install -g express-generator
+
+Create an express application:
+express -c stylus express_example
+
+Install dependencies:
+npm install
+
+Boot the app:
+DEBUG=express_example:* npm start
+check app is running on http://127.0.0.1:3000
+
+Boot the app with auto reload:
+DEBUG=express_example:* nodemon
+
+create git repo:
+git init
+echo 'node_modules' > .gitignore
+git add .
+git commit -m 'initial commit'
+
+Install nodemon to avoid reboot app:
+npm install -g nodemon
+
