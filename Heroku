@@ -15,6 +15,7 @@ heroku ps:scale web=1
 
 open the website as follows:
 heroku open
+heroku open cool // page name
 
 View information about your running:
 heroku logs --tail
