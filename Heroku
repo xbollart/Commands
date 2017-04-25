@@ -20,3 +20,9 @@ heroku logs --tail
 check how many dynos are running:
 heroku ps
 
+start your application locally:
+npm install
+heroku local web
+go to http://localhost:5000
+quit with control + C
+
