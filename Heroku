@@ -16,3 +16,7 @@ heroku open
 
 View information about your running:
 heroku logs --tail
+
+check how many dynos are running:
+heroku ps
+
