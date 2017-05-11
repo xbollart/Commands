@@ -1,1 +1,11 @@
 
+iterate over pandas dataframe:
+
+for index, row in df.iterrows():    
+  print(row['val_1'])
+  
+select ieme line:
+df.iloc[[2]]
+
+select line with index equal 2:
+df.loc[[2]]
