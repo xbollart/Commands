@@ -10,5 +10,8 @@ df.iloc[[2]]
 select line with index equal 2:
 df.loc[[2]]
 
+select specifics columns:
+df2 = df1[['col1','col2']]
+
 
 https://chrisalbon.com/python/pandas_indexing_selecting.html
