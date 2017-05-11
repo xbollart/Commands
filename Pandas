@@ -13,5 +13,11 @@ df.loc[[2]]
 select specifics columns:
 df2 = df1[['col1','col2']]
 
+select first value of a specific column:
+df['col1'].iloc[0]
+
+select last value of a specific column:
+df['col1'].iloc[-1]
+
 
 https://chrisalbon.com/python/pandas_indexing_selecting.html
