@@ -9,3 +9,6 @@ df.iloc[[2]]
 
 select line with index equal 2:
 df.loc[[2]]
+
+
+https://chrisalbon.com/python/pandas_indexing_selecting.html
