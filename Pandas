@@ -20,7 +20,7 @@ select last value of a specific column:
 df['col1'].iloc[-1]
 
 Count all true values into a specific column:
-(df['col1'] is True).sum() 
+(df['col1'] == True).sum() 
 
 
 https://chrisalbon.com/python/pandas_indexing_selecting.html
