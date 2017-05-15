@@ -1,1 +1,41 @@
 
+Empty commit:
+git commit --allowempty -m "initial commit"
+
+Regular commit:
+git commit -m "first commit"
+
+Add file to commit:
+git add
+
+push commit to repo:
+git push
+
+Read list of changes:
+git fetch
+
+Store dirty changes for switching to a new branch:
+git stash
+
+Pull and rebase changes:
+git pull rebase
+
+Display all info:
+git log
+
+Display editable changes:
+git log --oneline
+
+Display unmutable changes:
+git reflog
+
+Display branch:
+git branch
+
+Switch branch:
+git checkout "branch name"
+
+Display repo status without untracked 
+git status -u
+
+
