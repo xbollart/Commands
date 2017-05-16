@@ -22,5 +22,8 @@ df['col1'].iloc[-1]
 Count all true values into a specific column:
 (df['col1'] == True).sum() 
 
+Get dataframe last index value:
+df.tail(1).index
+
 
 https://chrisalbon.com/python/pandas_indexing_selecting.html
