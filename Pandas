@@ -33,8 +33,11 @@ histo_data = histo_data.reindex(idx, fill_value=float('NaN'))
 Progagate value on missing data:
 histo_data = histo_data.fillna(method='pad')
 
+Read CSV:
+histo_data_df = pd.read_csv('histoData/SPX.csv', index_col=0, parse_dates=True)
 
-
+Write CSV:
+histo_data_df.to_csv('histoData/SPX_out.csv')
 
 
 
