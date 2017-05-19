@@ -1,0 +1,6 @@
+Show tables of a database:
+SELECT owner, table_name  FROM dba_tables
+
+Column in upper case:
+WHERE upper(owner) = 'ADMIN'
+
