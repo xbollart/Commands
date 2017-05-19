@@ -1,22 +1,21 @@
 
-iterate over pandas dataframe:
-
+Iterate over pandas dataframe:
 for index, row in df.iterrows():    
   print(row['val_1'])
   
-select ieme line:
+Select ieme line:
 df.iloc[[2]]
 
-select line with index equal 2:
+Select line with index equal 2:
 df.loc[[2]]
 
-select specifics columns:
+Select specifics columns:
 df2 = df1[['col1','col2']]
 
-select first value of a specific column:
+Select first value of a specific column:
 df['col1'].iloc[0]
 
-select last value of a specific column:
+Select last value of a specific column:
 df['col1'].iloc[-1]
 
 Count all true values into a specific column:
@@ -24,6 +23,19 @@ Count all true values into a specific column:
 
 Get dataframe last index value:
 df.tail(1).index
+
+Generate business day date range:
+idx = pd.date_range(bgn_date, end_maturity_date, freq='B')
+
+Insert value into dataframe index:
+histo_data = histo_data.reindex(idx, fill_value=float('NaN'))
+
+Progagate value on missing data:
+histo_data = histo_data.fillna(method='pad')
+
+
+
+
 
 
 https://chrisalbon.com/python/pandas_indexing_selecting.html
