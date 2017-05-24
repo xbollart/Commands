@@ -74,6 +74,6 @@ group by user_group
 order by surname_count desc
 
 Inner Join(join)
-SELECT fot_streamed_scripts_histo.scriptname, fot_streamed_user.login, fot_streamed_user.name,fot_streamed_user.surname
-FROM fot_streamed_scripts_histo
-INNER JOIN fot_streamed_user ON fot_streamed_scripts_histo.LOGIN = fot_streamed_user.LOGIN 
+SELECT scripts_histo.scriptname, user.login, user.name,user.surname
+FROM scripts_histo
+INNER JOIN user ON scripts_histo.LOGIN = user.LOGIN 
