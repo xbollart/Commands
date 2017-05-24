@@ -1,6 +1,79 @@
+short cut execute query:
+CTRL + ENTER
+
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index 
+
+SELECT Column Example:
+SELECT CustomerName, City FROM Customers
+
+count distinct country:
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
+Operators in The WHERE Clause:
+= Equal
+<> Not equal. Note: In some versions of SQL this operator may be written as !=
+> Greater than
+< Less than
+>= Greater than or equal
+<= Less than or equal
+BETWEEN Between an inclusive range
+LIKE Search for a pattern
+INTO specify multiple possible values for a column
+
+Select with multiple conditions:
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...; 
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...; 
+
 Show tables of a database:
 SELECT owner, table_name  FROM dba_tables
 
 Column in upper case:
 WHERE upper(owner) = 'ADMIN'
 
+column in lower case:
+WHERE lower(owner) = 'admin'
+
+ORDER BY syntax:
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC; 
+
+INSERT INTO syntax:
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...); 
+
+Test null value:
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL; 
+
+LIKE syntax:
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern; 
+
+count user by group order descending:
+select user_group, count(surname) surname_count
+from fot_streamed_user
+group by user_group
+order by surname_count desc
+
+Inner Join(join)
+SELECT fot_streamed_scripts_histo.scriptname, fot_streamed_user.login, fot_streamed_user.name,fot_streamed_user.surname
+FROM fot_streamed_scripts_histo
+INNER JOIN fot_streamed_user ON fot_streamed_scripts_histo.LOGIN = fot_streamed_user.LOGIN 
