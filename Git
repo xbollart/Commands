@@ -38,4 +38,5 @@ git checkout "branch name"
 Display repo status without untracked 
 git status -u
 
-
+Desactivate ssl certificat:
+git config --global http.sslVerify false
