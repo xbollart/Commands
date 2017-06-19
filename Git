@@ -18,7 +18,7 @@ Store dirty changes for switching to a new branch:
 git stash
 
 Pull and rebase changes:
-git pull rebase
+git pull --rebase
 
 Display all info:
 git log
