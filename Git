@@ -43,3 +43,6 @@ git config --global http.sslVerify false
 
 Delete commits:
 git reset --hard
+
+Template .gitignore
+https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
