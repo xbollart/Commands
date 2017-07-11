@@ -46,3 +46,6 @@ git reset --hard
 
 Template .gitignore
 https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+
+unstage change
+git reset head
