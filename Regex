@@ -1,0 +1,9 @@
+Search first [[tag]] occurence in string: 
+var res = Regex.Match(rule, @"\[\[([^]]*)\]\]").Groups[1].Value;
+
+Check if string is a number:
+Regex.IsMatch(dict[tag], @"^\d+$")
+
+
+Retrive words from string:
+var words = Regex.Match(rule, @"\w(?<!\d)[\w'-]*");
