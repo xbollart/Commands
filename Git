@@ -49,3 +49,8 @@ https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
 
 unstage change
 git reset head
+
+Move last 3 commits to a branch:
+git branch newbranch
+git reset --hard HEAD~3
+git push -f
