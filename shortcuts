@@ -23,4 +23,12 @@ add foreach: foreach + tab
 add message box: mbox + tab
 
 format code: ctrl + k + f/c 
+switch tab: ctrl + tab or ctrl + f6
+switch back tab: shift + ctrl + tab or ctrl + shift + f6
+close current tab: ctrl + f4
+close all tab: alt + w + l
+search file in solution explorer: ctrl + ,
+full screen: shift + alt + enter
+colapse/expand method: ctrl + m + m
+
 
