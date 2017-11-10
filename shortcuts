@@ -1,0 +1,5 @@
+resharper short cut:
+ctrl T  searching class /searching method (search everywere)
+alt enter : refactor suggestion code / unit test menu
+ctrl shift r : refactor menu
+ctrl + alt + u unit test explorer
