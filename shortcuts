@@ -3,3 +3,24 @@ ctrl T  searching class /searching method (search everywere)
 alt enter : refactor suggestion code / unit test menu
 ctrl shift r : refactor menu
 ctrl + alt + u unit test explorer
+
+
+add/remove Bookmark: ctrl + K + K
+see all bookmark: ctrl + w ctrl + b
+
+code snippet:
+
+add constructor: ctor + tab
+add auto implemented propertie: prop + tab
+add full propertie: propfull +tab 
+add console.WriteLine(): cw + tab
+overwrite equals method: equals + tab
+add try catch: try + tab
+add try catch finaly: tryf + tab
+add for loop: for + tab
+add for decrising: forr + tab
+add foreach: foreach + tab
+add message box: mbox + tab
+
+format code: ctrl + k + f/c 
+
