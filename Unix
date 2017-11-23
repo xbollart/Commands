@@ -23,3 +23,6 @@ Edit crontab: i (vim cmd)
 
 Access crontab log:
 /var/log/cron.log
+
+check open port:
+sudo netstat -lptu
