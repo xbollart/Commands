@@ -1,3 +1,25 @@
 
-copy folder in ssh
+copy folder in ssh:
 scp -r  publish pi@192.168.1.10:~/dotnet
+
+Connect to raspberry:
+ssh pi@192.168.1.29
+pwd: raspberry
+
+copy script on raspberry:
+scp rouen_apt.py pi@192.168.1.16:~/scripts/leboncoin
+scp bordeaux_apt.py pi@192.168.1.16:~/scripts/leboncoin
+scp paris_box.py pi@192.168.1.16:~/scripts/leboncoin
+
+scp -r utils pi@192.168.1.16:~/scripts/leboncoin/
+
+change access right:
+sudo chmod 755 rouen_apt.py
+
+open crontab:
+crontab -e
+
+Edit crontab: i (vim cmd)
+
+Access crontab log:
+/var/log/cron.log
