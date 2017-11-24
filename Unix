@@ -26,3 +26,6 @@ Access crontab log:
 
 check open port:
 sudo netstat -lptu
+
+check firewall:
+sudo iptables -L
