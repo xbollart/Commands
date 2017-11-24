@@ -29,3 +29,6 @@ sudo netstat -lptu
 
 check firewall:
 sudo iptables -L
+
+commande line browser:
+curl 192.168.1.10:5050
