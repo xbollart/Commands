@@ -7,3 +7,9 @@ dotnet publish -r linux-arm
 
 copy publish on rpi
 scp -r  bin/Debug/netcoreapp2.0/linux-arm/publish pi@192.168.1.10:~/dotnet/web_app
+
+build solution:
+dotnet build
+
+start app:
+dotnet myApp.dll
