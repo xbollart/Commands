@@ -13,3 +13,10 @@ dotnet build
 
 start app:
 dotnet myApp.dll
+dotnet run
+
+EF Core Package Manager Console Tools
+
+create DB from code:
+Add-Migration InitialCreate
+Update-Database
