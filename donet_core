@@ -20,3 +20,6 @@ EF Core Package Manager Console Tools
 create DB from code:
 Add-Migration InitialCreate
 Update-Database
+
+Generate sql script
+Update-Database -Script -SourceMigration: $InitialDatabase
