@@ -17,9 +17,12 @@ dotnet run
 
 EF Core Package Manager Console Tools
 
-create DB from code:
-Add-Migration InitialCreate
-Update-Database
+1) enable-migration
+2) add-migration -initial
+3) update-database
 
-Generate sql script
+for incremental update:
+4) add-migration
+
+Generate sql script:
 Update-Database -Script -SourceMigration: $InitialDatabase
