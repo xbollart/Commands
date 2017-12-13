@@ -16,6 +16,12 @@ dotnet myApp.dll
 dotnet run
 
 EF Core Package Manager Console Tools
+ 
+0) install package for .net 4.6: 
+Install-Package EntityFramework
+0) install package for asp.net core:
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
 
 1) enable-migration
 2) add-migration -initial
