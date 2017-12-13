@@ -30,5 +30,9 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 for incremental update:
 4) add-migration
 
+
+Remove migration script:
+Remove-Migration
+
 Generate sql script:
 Update-Database -Script -SourceMigration: $InitialDatabase
