@@ -24,7 +24,7 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 
 
 1) enable-migration
-2) add-migration -initial
+2) add-migration -Initial
 3) update-database
 
 for incremental update:
