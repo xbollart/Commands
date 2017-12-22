@@ -1,3 +1,18 @@
+SQL Server
+
+top 1000:
+select top 1000 *
+from trades
+
+Bottom 1000:
+
+select top 1000 *
+from trades
+order by Id Desc
+
+
+Oracle
+
 short cut execute query:
 CTRL + ENTER
 
