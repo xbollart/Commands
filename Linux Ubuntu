@@ -1,0 +1,33 @@
+ssh server:
+ssh [user]@[ip]
+
+check sudo right:
+sudo -l -U [user]
+
+ssh copy:
+scp [relative local folder] [user]@[ip]:~/[folder path]
+
+kernel version:
+uname -or
+
+32 or 64 bit:
+uname -a
+
+linux distribution:
+lsb_release -irc
+
+install dotnet on Ubuntu 16.04 / Linux Mint 18:
+https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x
+
+publish for ubuntu
+dotnet publish -r ubuntu.16.04-x64
+
+fix apt-get update issue
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+
+add environment variables:
+export ASPNETCORE_ENVIRONMENT=Staging  (Development/Staging/Production)
+
+
+check port state
+sudo lsof -i -P -n | grep LISTEN
