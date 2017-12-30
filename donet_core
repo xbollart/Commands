@@ -36,3 +36,6 @@ Remove-Migration
 
 Generate sql script:
 Update-Database -Script -SourceMigration: $InitialDatabase
+
+init migration for a specific dbContext
+add-Migration init -Context ApplicationDbContext
