@@ -32,3 +32,5 @@ full screen: shift + alt + enter
 colapse/expand method: ctrl + m + m
 
 add new item: shift + alt + c
+Go to definition: F12
+Go to def (quick view): ctrl + F12
