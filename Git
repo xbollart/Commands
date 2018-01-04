@@ -57,3 +57,7 @@ git push -f
 
 change commit message localy:
 git commit --amend
+
+Count nb of file modified:
+git status | grep 'modified:' | wc -l
+
