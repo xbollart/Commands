@@ -30,6 +30,7 @@ close all tab: alt + w + l
 search file in solution explorer: ctrl + ,
 full screen: shift + alt + enter
 colapse/expand method: ctrl + m + m
+colapse/expand method: ctrl + m + o
 
 add new item: shift + alt + c
 Go to definition: F12
